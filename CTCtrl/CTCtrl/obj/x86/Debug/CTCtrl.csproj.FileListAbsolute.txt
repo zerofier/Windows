@@ -2,3 +2,11 @@ c:\users\9901728.fit\documents\visual studio 2010\Projects\CTCtrl\CTCtrl\obj\x86
 c:\users\9901728.fit\documents\visual studio 2010\Projects\CTCtrl\CTCtrl\obj\x86\Debug\CTCtrl.FormMain.resources
 c:\users\9901728.fit\documents\visual studio 2010\Projects\CTCtrl\CTCtrl\obj\x86\Debug\CTCtrl.Properties.Resources.resources
 c:\users\9901728.fit\documents\visual studio 2010\Projects\CTCtrl\CTCtrl\obj\x86\Debug\CTCtrl.csproj.GenerateResource.Cache
+C:\Users\9901728.FIT\Documents\GitHub\Windows\CTCtrl\CTCtrl\bin\Debug\CTCtrl.exe
+C:\Users\9901728.FIT\Documents\GitHub\Windows\CTCtrl\CTCtrl\bin\Debug\CTCtrl.pdb
+C:\Users\9901728.FIT\Documents\GitHub\Windows\CTCtrl\CTCtrl\obj\x86\Debug\CTCtrl.DialogPortConfig.resources
+C:\Users\9901728.FIT\Documents\GitHub\Windows\CTCtrl\CTCtrl\obj\x86\Debug\CTCtrl.FormMain.resources
+C:\Users\9901728.FIT\Documents\GitHub\Windows\CTCtrl\CTCtrl\obj\x86\Debug\CTCtrl.Properties.Resources.resources
+C:\Users\9901728.FIT\Documents\GitHub\Windows\CTCtrl\CTCtrl\obj\x86\Debug\CTCtrl.csproj.GenerateResource.Cache
+C:\Users\9901728.FIT\Documents\GitHub\Windows\CTCtrl\CTCtrl\obj\x86\Debug\CTCtrl.exe
+C:\Users\9901728.FIT\Documents\GitHub\Windows\CTCtrl\CTCtrl\obj\x86\Debug\CTCtrl.pdb

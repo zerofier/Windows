@@ -15,5 +15,13 @@ namespace CTCtrl
         {
             InitializeComponent();
         }
+
+        private void menuStart_Click(object sender, EventArgs e)
+        {
+            // open port
+            // AT ND -> result show on treeview.
+        }
+
+
     }
 }
