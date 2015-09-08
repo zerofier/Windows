@@ -1,0 +1,4 @@
+c:\users\9901728.fit\documents\visual studio 2010\Projects\CTCtrl\CTCtrl\obj\x86\Debug\CTCtrl.DialogPortConfig.resources
+c:\users\9901728.fit\documents\visual studio 2010\Projects\CTCtrl\CTCtrl\obj\x86\Debug\CTCtrl.FormMain.resources
+c:\users\9901728.fit\documents\visual studio 2010\Projects\CTCtrl\CTCtrl\obj\x86\Debug\CTCtrl.Properties.Resources.resources
+c:\users\9901728.fit\documents\visual studio 2010\Projects\CTCtrl\CTCtrl\obj\x86\Debug\CTCtrl.csproj.GenerateResource.Cache

@@ -1,9 +1,0 @@
-C:\Users\9901728.FIT\Documents\Visual Studio 2010\Projects\VirtualXBee\VirtualXBee\bin\Debug\VirtualXBee.exe.config
-C:\Users\9901728.FIT\Documents\Visual Studio 2010\Projects\VirtualXBee\VirtualXBee\obj\x86\Debug\VirtualXBee.DialogPortConfig.resources
-C:\Users\9901728.FIT\Documents\Visual Studio 2010\Projects\VirtualXBee\VirtualXBee\obj\x86\Debug\VirtualXBee.FormMain.resources
-C:\Users\9901728.FIT\Documents\Visual Studio 2010\Projects\VirtualXBee\VirtualXBee\obj\x86\Debug\VirtualXBee.Properties.Resources.resources
-C:\Users\9901728.FIT\Documents\Visual Studio 2010\Projects\VirtualXBee\VirtualXBee\obj\x86\Debug\VirtualXBee.csproj.GenerateResource.Cache
-C:\Users\9901728.FIT\Documents\Visual Studio 2010\Projects\VirtualXBee\VirtualXBee\bin\Debug\VirtualXBee.exe
-C:\Users\9901728.FIT\Documents\Visual Studio 2010\Projects\VirtualXBee\VirtualXBee\bin\Debug\VirtualXBee.pdb
-C:\Users\9901728.FIT\Documents\Visual Studio 2010\Projects\VirtualXBee\VirtualXBee\obj\x86\Debug\VirtualXBee.exe
-C:\Users\9901728.FIT\Documents\Visual Studio 2010\Projects\VirtualXBee\VirtualXBee\obj\x86\Debug\VirtualXBee.pdb
