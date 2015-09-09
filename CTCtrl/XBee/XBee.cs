@@ -92,8 +92,9 @@ namespace XBee
         {
             byte sum = array[0];
             for (int i = 1; i < array.Length; i++)
-                sum ^= array[i];
+                sum += array[i];
 
+            sum = (byte)(0xFF - sum);
             return sum;
         }
 
