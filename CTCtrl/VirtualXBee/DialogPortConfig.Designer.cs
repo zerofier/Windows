@@ -1,4 +1,4 @@
-﻿namespace CTCtrl
+﻿namespace XBee
 {
     partial class DialogPortConfig
     {

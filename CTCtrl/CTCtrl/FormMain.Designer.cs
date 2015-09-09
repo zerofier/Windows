@@ -1,4 +1,4 @@
-﻿namespace CTCtrl
+﻿namespace XBee
 {
     partial class FormMain
     {
@@ -64,7 +64,7 @@
             this.menuExit});
             this.menuFile.Name = "menuFile";
             this.menuFile.Size = new System.Drawing.Size(85, 22);
-            this.menuFile.Text = global::CTCtrl.Properties.Resources.MENU_FILE;
+            this.menuFile.Text = global::XBee.Properties.Resources.MENU_FILE;
             // 
             // menuExit
             // 
@@ -72,6 +72,7 @@
             this.menuExit.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F4)));
             this.menuExit.Size = new System.Drawing.Size(166, 22);
             this.menuExit.Text = "終了(&X)";
+            this.menuExit.Click += new System.EventHandler(this.menuExit_Click);
             // 
             // menuEdit
             // 
@@ -93,9 +94,11 @@
             // 
             // menuEnd
             // 
+            this.menuEnd.Enabled = false;
             this.menuEnd.Name = "menuEnd";
             this.menuEnd.Size = new System.Drawing.Size(165, 22);
             this.menuEnd.Text = "終了(&E)";
+            this.menuEnd.Click += new System.EventHandler(this.menuEnd_Click);
             // 
             // toolStripMenuItem1
             // 
@@ -107,6 +110,7 @@
             this.menuPortSetting.Name = "menuPortSetting";
             this.menuPortSetting.Size = new System.Drawing.Size(165, 22);
             this.menuPortSetting.Text = "ポート設定(&P)...";
+            this.menuPortSetting.Click += new System.EventHandler(this.menuPortSetting_Click);
             // 
             // menuHelp
             // 

@@ -10,3 +10,15 @@ C:\Users\9901728.FIT\Documents\GitHub\Windows\CTCtrl\CTCtrl\obj\x86\Debug\CTCtrl
 C:\Users\9901728.FIT\Documents\GitHub\Windows\CTCtrl\CTCtrl\obj\x86\Debug\CTCtrl.csproj.GenerateResource.Cache
 C:\Users\9901728.FIT\Documents\GitHub\Windows\CTCtrl\CTCtrl\obj\x86\Debug\CTCtrl.exe
 C:\Users\9901728.FIT\Documents\GitHub\Windows\CTCtrl\CTCtrl\obj\x86\Debug\CTCtrl.pdb
+C:\Users\9901728.FIT\GitHub\Windows\CTCtrl\CTCtrl\obj\x86\Debug\CTCtrl.exe
+C:\Users\9901728.FIT\GitHub\Windows\CTCtrl\CTCtrl\obj\x86\Debug\CTCtrl.pdb
+C:\Users\9901728.FIT\GitHub\Windows\CTCtrl\CTCtrl\obj\x86\Debug\XBee.DialogPortConfig.resources
+C:\Users\9901728.FIT\GitHub\Windows\CTCtrl\CTCtrl\obj\x86\Debug\XBee.FormMain.resources
+C:\Users\9901728.FIT\GitHub\Windows\CTCtrl\CTCtrl\obj\x86\Debug\XBee.Properties.Resources.resources
+C:\Users\9901728.FIT\GitHub\Windows\CTCtrl\CTCtrl\obj\x86\Debug\CTCtrl.csproj.GenerateResource.Cache
+C:\Users\9901728.FIT\GitHub\Windows\CTCtrl\CTCtrl\obj\x86\Debug\CTCtrl.csprojResolveAssemblyReference.cache
+C:\Users\9901728.FIT\GitHub\Windows\CTCtrl\CTCtrl\bin\Debug\CTCtrl.exe.config
+C:\Users\9901728.FIT\GitHub\Windows\CTCtrl\CTCtrl\bin\Debug\CTCtrl.exe
+C:\Users\9901728.FIT\GitHub\Windows\CTCtrl\CTCtrl\bin\Debug\CTCtrl.pdb
+C:\Users\9901728.FIT\GitHub\Windows\CTCtrl\CTCtrl\bin\Debug\XBee.dll
+C:\Users\9901728.FIT\GitHub\Windows\CTCtrl\CTCtrl\bin\Debug\XBee.pdb

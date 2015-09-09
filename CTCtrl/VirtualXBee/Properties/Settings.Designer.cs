@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CTCtrl.Properties {
+namespace XBee.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

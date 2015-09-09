@@ -16,3 +16,15 @@ C:\Users\9901728.FIT\Documents\Visual Studio 2010\Projects\CTCtrl\VirtualXBee\bi
 C:\Users\9901728.FIT\Documents\Visual Studio 2010\Projects\CTCtrl\VirtualXBee\bin\Debug\VirtualXBee.exe
 C:\Users\9901728.FIT\Documents\Visual Studio 2010\Projects\CTCtrl\VirtualXBee\bin\Debug\VirtualXBee.pdb
 C:\Users\9901728.FIT\Documents\Visual Studio 2010\Projects\CTCtrl\VirtualXBee\obj\x86\Debug\VirtualXBee.pdb
+C:\Users\9901728.FIT\GitHub\Windows\CTCtrl\VirtualXBee\obj\x86\Debug\XBee.DialogPortConfig.resources
+C:\Users\9901728.FIT\GitHub\Windows\CTCtrl\VirtualXBee\obj\x86\Debug\XBee.FormMain.resources
+C:\Users\9901728.FIT\GitHub\Windows\CTCtrl\VirtualXBee\obj\x86\Debug\XBee.Properties.Resources.resources
+C:\Users\9901728.FIT\GitHub\Windows\CTCtrl\VirtualXBee\obj\x86\Debug\VirtualXBee.csproj.GenerateResource.Cache
+C:\Users\9901728.FIT\GitHub\Windows\CTCtrl\VirtualXBee\obj\x86\Debug\VirtualXBee.exe
+C:\Users\9901728.FIT\GitHub\Windows\CTCtrl\VirtualXBee\bin\Debug\VirtualXBee.exe.config
+C:\Users\9901728.FIT\GitHub\Windows\CTCtrl\VirtualXBee\bin\Debug\VirtualXBee.exe
+C:\Users\9901728.FIT\GitHub\Windows\CTCtrl\VirtualXBee\bin\Debug\VirtualXBee.pdb
+C:\Users\9901728.FIT\GitHub\Windows\CTCtrl\VirtualXBee\bin\Debug\XBee.dll
+C:\Users\9901728.FIT\GitHub\Windows\CTCtrl\VirtualXBee\bin\Debug\XBee.pdb
+C:\Users\9901728.FIT\GitHub\Windows\CTCtrl\VirtualXBee\obj\x86\Debug\VirtualXBee.csprojResolveAssemblyReference.cache
+C:\Users\9901728.FIT\GitHub\Windows\CTCtrl\VirtualXBee\obj\x86\Debug\VirtualXBee.pdb

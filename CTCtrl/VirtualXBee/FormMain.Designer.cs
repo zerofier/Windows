@@ -1,4 +1,4 @@
-﻿namespace CTCtrl
+﻿namespace XBee
 {
     partial class FormMain
     {
@@ -35,7 +35,7 @@
             this.menuStart = new System.Windows.Forms.ToolStripMenuItem();
             this.menuEnd = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
-            this.menuPortConfig = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuPortSetting = new System.Windows.Forms.ToolStripMenuItem();
             this.menuHelp = new System.Windows.Forms.ToolStripMenuItem();
             this.menuAbout = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
@@ -75,7 +75,7 @@
             this.menuStart,
             this.menuEnd,
             this.toolStripMenuItem1,
-            this.menuPortConfig});
+            this.menuPortSetting});
             this.menuEdit.Name = "menuEdit";
             this.menuEdit.Size = new System.Drawing.Size(61, 22);
             this.menuEdit.Text = "編集(&E)";
@@ -100,12 +100,12 @@
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.Size = new System.Drawing.Size(162, 6);
             // 
-            // menuPortConfig
+            // menuPortSetting
             // 
-            this.menuPortConfig.Name = "menuPortConfig";
-            this.menuPortConfig.Size = new System.Drawing.Size(165, 22);
-            this.menuPortConfig.Text = "ポート設定(&P)...";
-            this.menuPortConfig.Click += new System.EventHandler(this.menuPortConfig_Click);
+            this.menuPortSetting.Name = "menuPortSetting";
+            this.menuPortSetting.Size = new System.Drawing.Size(165, 22);
+            this.menuPortSetting.Text = "ポート設定(&P)...";
+            this.menuPortSetting.Click += new System.EventHandler(this.menuPortSetting_Click);
             // 
             // menuHelp
             // 
@@ -143,7 +143,7 @@
         private System.Windows.Forms.ToolStripMenuItem menuFile;
         private System.Windows.Forms.ToolStripMenuItem menuExit;
         private System.Windows.Forms.ToolStripMenuItem menuEdit;
-        private System.Windows.Forms.ToolStripMenuItem menuPortConfig;
+        private System.Windows.Forms.ToolStripMenuItem menuPortSetting;
         private System.Windows.Forms.ToolStripMenuItem menuHelp;
         private System.Windows.Forms.ToolStripMenuItem menuAbout;
         private System.Windows.Forms.ToolStripMenuItem menuStart;

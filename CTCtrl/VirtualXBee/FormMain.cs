@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace CTCtrl
+namespace XBee
 {
     public partial class FormMain : Form
     {
@@ -34,7 +34,44 @@ namespace CTCtrl
             base.OnShown(e);
         }
 
-        private void menuPortConfig_Click(object sender, EventArgs e)
+        
+
+        private void sendProc()
+        {
+
+        }
+
+        private void recvProc()
+        {
+
+        }
+
+        private void menuExit_Click(object sender, EventArgs e)
+        {
+            this.serialPort.Close();
+            this.Close();
+        }
+
+        private void menuStart_Click(object sender, EventArgs e)
+        {
+            this.menuStart.Enabled = false;
+            this.menuEnd.Enabled = true;
+            this.menuPortSetting.Enabled = false;
+            if (this.serialPort.IsOpen == false)
+                this.serialPort.Open();
+        }
+
+        private void menuEnd_Click(object sender, EventArgs e)
+        {
+            this.menuStart.Enabled = true;
+            this.menuEnd.Enabled = false;
+            this.menuPortSetting.Enabled = true;
+
+            if (this.serialPort.IsOpen == true)
+                this.serialPort.Close();
+        }
+
+        private void menuPortSetting_Click(object sender, EventArgs e)
         {
             DialogPortConfig dlg = new DialogPortConfig();
             if (dlg.ShowDialog(this) == System.Windows.Forms.DialogResult.OK)
@@ -48,55 +85,6 @@ namespace CTCtrl
             }
         }
 
-        private void sendProc()
-        {
 
-        }
-
-        private void recvProc()
-        {
-
-        }
-
-        private void serialPort_DataReceived(object sender, System.IO.Ports.SerialDataReceivedEventArgs e)
-        {
-            XBee.Frame frame;
-            switch (e.EventType)
-            {
-                case System.IO.Ports.SerialData.Chars:
-                    frame = XBee.recvFrame(this.serialPort);
-                    System.Diagnostics.Debug.WriteLine(frame.FrameType);
-                    break;
-                case System.IO.Ports.SerialData.Eof:
-                    break;
-                default:
-                    break;
-            }
-        }
-
-        private void menuStart_Click(object sender, EventArgs e)
-        {
-            this.menuStart.Enabled = false;
-            this.menuEnd.Enabled = true;
-            this.menuPortConfig.Enabled = false;
-            if (this.serialPort.IsOpen == false)
-                this.serialPort.Open();
-        }
-
-        private void menuEnd_Click(object sender, EventArgs e)
-        {
-            this.menuStart.Enabled = true;
-            this.menuEnd.Enabled = false;
-            this.menuPortConfig.Enabled = true;
-
-            if (this.serialPort.IsOpen == true)
-                this.serialPort.Close();
-        }
-
-        private void menuExit_Click(object sender, EventArgs e)
-        {
-            this.serialPort.Close();
-            this.Close();
-        }
     }
 }
