@@ -1,10 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
+using System.Threading;
 using System.Windows.Forms;
 using NETMF.OpenSource.XBee;
 using NETMF.OpenSource.XBee.Api.Zigbee;
@@ -37,8 +32,10 @@ namespace VirtualXBee
 
         private void sendProc()
         {
-
-             this.xbeeApi.Send(
+            for (; ; Thread.Sleep(10 * 1000))
+            {
+                RxResponse res = new RxResponse();
+            }
         }
 
         private void recvProc()

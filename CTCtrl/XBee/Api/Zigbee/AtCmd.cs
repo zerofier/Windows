@@ -50,7 +50,7 @@ namespace NETMF.OpenSource.XBee.Api.Zigbee
         /// </summary>
         /// <remarks>
         /// A value of 0xFFFE means the module has not joined a ZigBee network.
-        /// <para>Range: 0 - 0xFFFEÉ [read-only].</para>
+        /// <para>Range: 0 - 0xFFFEÅE[read-only].</para>
         /// <para>Default: 0xFFFE.</para>
         /// <para>Applicable: Coordinator, Router, End Device.</para>
         /// </remarks>
@@ -62,7 +62,7 @@ namespace NETMF.OpenSource.XBee.Api.Zigbee
         /// </summary>
         /// <remarks>
         /// A value of 0xFFFE means the module does not have a parent.
-        /// <para>Range: 0 - 0xFFFEÉ [read-only].</para>
+        /// <para>Range: 0 - 0xFFFEÅE[read-only].</para>
         /// <para>Default: 0xFFFE.</para>
         /// <para>Applicable: End Device.</para>
         /// </remarks>
@@ -343,7 +343,7 @@ namespace NETMF.OpenSource.XBee.Api.Zigbee
         /// channels to scan is determined by the SC parameter. The XBee can scan up to 16 channels 
         /// (SC = 0xFFFF). Changes to SD should be written using WR command. 
         /// <para>Coordinator - Duration of the Active and Energy Scans (on each channel) that are 
-        /// used to determine an acceptable channel and Pan ID for the Coordinator to startup on.É</para>
+        /// used to determine an acceptable channel and Pan ID for the Coordinator to startup on.ÅE/para>
         /// <para>Router / End Device - Duration of Active Scan (on each channel) used to locate an 
         /// available Coordinator / Router to join during Association.</para>
         /// <para>Note: SD influences the time the MAC listens for beacons or runs an energy scan on a 
@@ -384,7 +384,7 @@ namespace NETMF.OpenSource.XBee.Api.Zigbee
         /// NJ out to the network via a Mgmt_Permit_Joining_req; this value is transmitted by setting CB=2. 
         /// See the command description for CB for more information.</para>
         /// <para>Range: 0 - 0xFF É[x 1 sec].</para>
-        /// <para>Default: 0xFF É(always allows joining).</para>
+        /// <para>Default: 0xFF ÅEalways allows joining).</para>
         /// <para>Applicable: Coordinator, Router, End Device.</para>
         /// </remarks>
         [AtString("NJ")]
@@ -691,7 +691,7 @@ namespace NETMF.OpenSource.XBee.Api.Zigbee
         /// Introduced in firmware v1.x80.
         /// <para>Range: 
         /// 0 (Disabled), 
-        /// 1 (CTS Flow ControlÉ), 
+        /// 1 (CTS Flow ControlÅE, 
         /// 3 (Digital input), 
         /// 4 (Digital output low), 
         /// 5 (Digital output high), 
@@ -712,7 +712,7 @@ namespace NETMF.OpenSource.XBee.Api.Zigbee
         /// Introduced in firmware v1.x80.
         /// <para>Range: 
         /// 0 (Disabled), 
-        /// 1 (RTS Flow ControlÉ), 
+        /// 1 (RTS Flow ControlÅE, 
         /// 3 (Digital input), 
         /// 4 (Digital output low), 
         /// 5 (Digital output high).
@@ -1362,7 +1362,7 @@ namespace NETMF.OpenSource.XBee.Api.Zigbee
         /// </summary>
         /// <remarks>
         /// If there is no response from a module within (NT * 100) milliseconds or a parameter is 
-        /// not specified (left blank), the command is terminated and an ìERRORî message is returned. 
+        /// not specified (left blank), the command is terminated and an ìERRORÅEmessage is returned. 
         /// In the case of an ERROR, Command Mode is not exited. The radius of the DN command is set 
         /// by the BH command.
         /// <para>Range: up to 20-Byte printable ASCII string.</para>
