@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace XBee
+namespace CTCtrl
 {
     public partial class FormMain : Form
     {

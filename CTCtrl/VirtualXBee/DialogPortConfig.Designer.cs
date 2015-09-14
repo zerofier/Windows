@@ -1,4 +1,4 @@
-﻿namespace XBee
+﻿namespace VirtualXBee
 {
     partial class DialogPortConfig
     {

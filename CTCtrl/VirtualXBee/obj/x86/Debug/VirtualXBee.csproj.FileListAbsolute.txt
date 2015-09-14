@@ -28,3 +28,5 @@ C:\Users\9901728.FIT\GitHub\Windows\CTCtrl\VirtualXBee\bin\Debug\XBee.dll
 C:\Users\9901728.FIT\GitHub\Windows\CTCtrl\VirtualXBee\bin\Debug\XBee.pdb
 C:\Users\9901728.FIT\GitHub\Windows\CTCtrl\VirtualXBee\obj\x86\Debug\VirtualXBee.csprojResolveAssemblyReference.cache
 C:\Users\9901728.FIT\GitHub\Windows\CTCtrl\VirtualXBee\obj\x86\Debug\VirtualXBee.pdb
+C:\Users\9901728.FIT\GitHub\Windows\CTCtrl\VirtualXBee\obj\x86\Debug\VirtualXBee.DialogPortConfig.resources
+C:\Users\9901728.FIT\GitHub\Windows\CTCtrl\VirtualXBee\obj\x86\Debug\VirtualXBee.FormMain.resources

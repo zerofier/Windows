@@ -1,4 +1,4 @@
-﻿namespace XBee
+﻿namespace VirtualXBee
 {
     partial class FormMain
     {
@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.menuFile = new System.Windows.Forms.ToolStripMenuItem();
             this.menuExit = new System.Windows.Forms.ToolStripMenuItem();
@@ -38,6 +39,7 @@
             this.menuPortSetting = new System.Windows.Forms.ToolStripMenuItem();
             this.menuHelp = new System.Windows.Forms.ToolStripMenuItem();
             this.menuAbout = new System.Windows.Forms.ToolStripMenuItem();
+            this.timerSender = new System.Windows.Forms.Timer(this.components);
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -121,6 +123,10 @@
             this.menuAbout.Size = new System.Drawing.Size(178, 22);
             this.menuAbout.Text = "バージョン情報(&A)";
             // 
+            // timerSender
+            // 
+            this.timerSender.Tick += new System.EventHandler(this.timerSender_Tick);
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -149,6 +155,7 @@
         private System.Windows.Forms.ToolStripMenuItem menuStart;
         private System.Windows.Forms.ToolStripMenuItem menuEnd;
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem1;
+        private System.Windows.Forms.Timer timerSender;
     }
 }
 

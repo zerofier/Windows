@@ -8,7 +8,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace XBee.Properties {
+namespace VirtualXBee.Properties
+{
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
